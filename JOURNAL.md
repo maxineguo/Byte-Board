@@ -21,12 +21,12 @@ My vision for the project is once you have the PCB, you can mess around with the
 | **AMS1117-5.0 (5V LDO Regulator)**    | C6187             | 1       | \$0.1913       | \$0.1913  | Regulates to 5V from battery                 |
 | **3xAAA Battery Holder**              | C5370880          | 1       | \$1.6500       | \$1.6500  | Main power input source                      |
 | **1N5819WS Schottky Diode**           | C191023           | 1       | \$0.0096       | \$0.0096  | Reverse polarity protection on battery input |
+| **Slide Switch SS‑3390S‑L2**          | C318997           | 1       | \$0.1239       | \$0.1239  |SMD slide switch to turn battery power on/off |
 
 ### 🧠 MICROCONTROLLER AND PROGRAMMING
 | **Component**              | **JLCPCB Part #** | **Qty** | **Unit Price** | **Total** | **Notes**                   |
 | -------------------------- | ----------------- | ------- | -------------- | --------- | --------------------------- |
-| **ATmega328P-AU (MCU)**    | C14877            | 1       | \$2.2035       | \$2.2035  | Main microcontroller (TQFP) |
-| **CH340C (USB-to-Serial)** | C7464026          | 1       | \$0.5790       | \$0.5790  | USB programming via UART    |
+| **ESP32-WROOM-32-N4**      | C82899            | 1       | \$4.1985       | \$4.1985  | Main microcontroller        |
 | **Micro-USB Connector**    | C7507410          | 1       | \$0.0494       | \$0.0494  | USB interface connector     |
 | **Tactile Button (Reset)** | C2888545          | 1       | \$0.0053       | \$0.0053  | Manual reset for MCU        |
 
