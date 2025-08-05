@@ -17,53 +17,53 @@ My vision for the project is once you have the PCB, you can mess around with the
 ### 🔌 POWER SUPPLY
 | **Component**                         | **JLCPCB Part #** | **Qty** | **Unit Price** | **Total** | **Notes**                                    |
 | ------------------------------------- | ----------------- | ------- | -------------- | --------- | -------------------------------------------- |
-| **RT9080-33GJ5 (3.3V LDO Regulator)** | C841192           | 1       | \$0.1034       | \$0.1034  | Powers 3.3V components like IMU and OLED     |
-| **AMS1117-5.0 (5V LDO Regulator)**    | C6187             | 1       | \$0.1913       | \$0.1913  | Regulates to 5V from battery                 |
-| **3xAAA Battery Holder**              | C5370880          | 1       | \$1.6500       | \$1.6500  | Main power input source                      |
-| **1N5819WS Schottky Diode**           | C191023           | 1       | \$0.0096       | \$0.0096  | Reverse polarity protection on battery input |
-| **Slide Switch SS‑3390S‑L2**          | C318997           | 1       | \$0.1239       | \$0.1239  |SMD slide switch to turn battery power on/off |
+| **RT9080-33GJ5 (3.3V LDO Regulator)** | C841192           | 1       | \$0.1034       | \$0.10    | Powers 3.3V components like IMU and OLED     |
+| **AMS1117-5.0 (5V LDO Regulator)**    | C6187             | 1       | \$0.1913       | \$0.19    | Regulates to 5V from battery                 |
+| **3xAAA Battery Holder**              | C5370880          | 1       | \$1.6500       | \$1.65    | Main power input source                      |
+| **1N5819WS Schottky Diode**           | C191023           | 1       | \$0.0096       | \$0.01    | Reverse polarity protection on battery input |
+| **Slide Switch SS‑3390S‑L2**          | C318997           | 1       | \$0.1239       | \$0.12    |SMD slide switch to turn battery power on/off |
 
 ### 🧠 MICROCONTROLLER AND PROGRAMMING
 | **Component**              | **JLCPCB Part #** | **Qty** | **Unit Price** | **Total** | **Notes**                   |
 | -------------------------- | ----------------- | ------- | -------------- | --------- | --------------------------- |
-| **ESP32-WROOM-32-N4**      | C82899            | 1       | \$4.1985       | \$4.1985  | Main microcontroller        |
-| **Micro-USB Connector**    | C7507410          | 1       | \$0.0494       | \$0.0494  | USB interface connector     |
-| **Tactile Button (Reset)** | C2888545          | 1       | \$0.0053       | \$0.0053  | Manual reset for MCU        |
+| **ESP32-WROOM-32D-N4**     | C473012           | 1       | \$2.7315       | \$2.73    | Main microcontroller        |
+| **Micro-USB Connector**    | C7507410          | 1       | \$0.0494       | \$0.05    | USB interface connector     |
+| **Tactile Button (Reset)** | C2888545          | 1       | \$0.0053       | \$0.01    | Manual reset for MCU        |
 
 ### 📟 OUTPUT COMPONENTS
 | **Component**                | **JLCPCB Part #** | **Qty** | **Unit Price** | **Total** | **Notes**                     |
 | ---------------------------- | ----------------- | ------- | -------------- | --------- | ----------------------------- |
-| **RGB LED (WS2812B 3535)**   | C110402           | 1       | \$0.0840       | \$0.0840  | For colorful visual feedback  |
-| **0.96" OLED Display (I2C)** | C5248080          | 1       | \$1.9710       | \$1.9710  | Main display interface (3.3V) |
-| **Passive Piezo Buzzer**     | C22387762         | 1       | \$0.0479       | \$0.0479  | For sound feedback            |
+| **RGB LED (WS2812B 3535)**   | C110402           | 1       | \$0.0840       | \$0.08    | For colorful visual feedback  |
+| **0.96" OLED Display (I2C)** | C5248080          | 1       | \$1.9710       | \$1.97    | Main display interface (3.3V) |
+| **Passive Piezo Buzzer**     | C22387762         | 1       | \$0.0479       | \$0.05    | For sound feedback            |
 
 ### 🧭 INPUT COMPONENTS
 | **Component**                | **JLCPCB Part #** | **Qty** | **Unit Price** | **Total** | **Notes**                               |
 | ---------------------------- | ----------------- | ------- | -------------- | --------- | --------------------------------------- |
-| **Rotary Encoder w/ Button** | C398936           | 1       | \$2.8740       | \$2.8740  | Multi-function input (direction + push) |
-| **Tactile Button**           | C2888545          | 1       | \$0.0053       | \$0.0053  | General-purpose user input              |
+| **Rotary Encoder w/ Button** | C398936           | 1       | \$2.8740       | \$2.87    | Multi-function input (direction + push) |
+| **Tactile Button**           | C2888545          | 1       | \$0.0053       | \$0.01    | General-purpose user input              |
 
 
 ### 🌡️ SENSORS
 | **Component**                          | **JLCPCB Part #** | **Qty** | **Unit Price** | **Total** | **Notes**                 |
 | -------------------------------------- | ----------------- | ------- | -------------- | --------- | ------------------------- |
-| **ICM-42688-P (Accelerometer + Gyro)** | C1850418          | 1       | \$2.4675       | \$2.4675  | 3.3V I2C IMU sensor       |
-| **GL5528 Photoresistor (LDR)**         | C10081            | 1       | \$0.0377       | \$0.0377  | Analog light sensor       |
-| **10kΩ NTC Thermistor**                | C77130            | 1       | \$0.0103       | \$0.0103  | Analog temperature sensor |
+| **ICM-42688-P (Accelerometer + Gyro)** | C1850418          | 1       | \$2.4675       | \$2.47    | 3.3V I2C IMU sensor       |
+| **GL5528 Photoresistor (LDR)**         | C10081            | 1       | \$0.0377       | \$0.04    | Analog light sensor       |
+| **10kΩ NTC Thermistor**                | C77130            | 1       | \$0.0103       | \$0.01    | Analog temperature sensor |
 
 ### 📶 I2C & LOGIC LEVEL CONVERSION
 | **Component**             | **JLCPCB Part #** | **Qty** | **Unit Price** | **Total** | **Notes**                                   |
 | ------------------------- | ----------------- | ------- | -------------- | --------- | ------------------------------------------- |
-| **BSS138 MOSFET**         | C52895            | 2       | \$0.0476       | \$0.0952  | Used for I2C level shifting (bidirectional) |
-| **4.7kΩ Resistor (0805)** | C17673            | 4       | \$0.0017       | \$0.0068  | I2C pull-ups (x2), gate pull-downs (x2)     |
+| **BSS138 MOSFET**         | C52895            | 2       | \$0.0476       | \$0.10    | Used for I2C level shifting (bidirectional) |
+| **4.7kΩ Resistor (0805)** | C17673            | 4       | \$0.0017       | \$0.04    | I2C pull-ups (x2), gate pull-downs (x2)     |
 
 ### ⚙️ PASSIVES
 | **Component**              | **JLCPCB Part #** | **Qty** | **Unit Price** | **Total** | **Notes**                                               |
 | -------------------------- | ----------------- | ------- | -------------- | --------- | ------------------------------------------------------- |
-| **10kΩ Resistor (0402)**   | C25744            | 3       | \$0.0005       | \$0.0015  | Pull-ups: Reset (1), Thermistor divider (1), Button (1) |
-| **330Ω Resistor (0805)**   | C17630            | 3       | \$0.0018       | \$0.0054  | Series resistors for RGB LED                            |
-| **1µF Capacitor (0805)**   | C15850            | 3       | \$0.0108       | \$0.0324  | Decoupling caps for regulators and logic                |
-| **100nF Capacitor (0805)** | C49678            | 4       | \$0.0044       | \$0.0176  | MCU decoupling (AVCC, VCC) and CH340 bypass             |
-| **Green LED (0603)**       | C165983           | 1       | \$0.0221       | \$0.0221  | Power indicator                                         |                                     |
+| **10kΩ Resistor (0402)**   | C25744            | 3       | \$0.0005       | \$0.03    | Pull-ups: Reset (1), Thermistor divider (1), Button (1) |
+| **330Ω Resistor (0805)**   | C17630            | 3       | \$0.0018       | \$0.03    | Series resistors for RGB LED                            |
+| **1µF Capacitor (0805)**   | C15850            | 3       | \$0.0108       | \$0.03    | Decoupling caps for regulators and logic                |
+| **100nF Capacitor (0805)** | C49678            | 4       | \$0.0044       | \$0.04    | MCU decoupling (AVCC, VCC) and CH340 bypass             |
+| **Green LED (0603)**       | C165983           | 1       | \$0.0221       | \$0.02    | Power indicator                                         |                                     |
 
 **Total time spent: 5h** - I know that is a lot, but I am a beginner with like no knowledge.
